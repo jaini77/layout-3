@@ -3,12 +3,12 @@
 header{
     background-image: url('main_img.jpg');
     background-repeat: no-repeat;
-    background-size: 96.8%;
+    background-size: 97.3%;
     color: white;
 }
 .icon_logo{
     background-color: #58565691;
-    margin-bottom: 20%;
+    margin-bottom: 25%;
 }
 .icon_logo hr{
     background-color: #3bbddc;
@@ -33,22 +33,31 @@ span{
 }
 /* list css */
 .lang_nm{
-    background-color:#adaaadaf;
+    background-color:#6d6b6d72;
+    padding-top: 50px;  
+    font-size: x-large;
 }
 .lang_nm ul li{
+    
     list-style: square;
     font-weight: bold;
     text-align: right;
     direction: rtl;
-    margin-right: 5%;
+    margin-right: 20%;
 }
+.lang_nm ul li:hover{
+    color: #1285e4;
+}
+
+
 /* second header css */
 .txt_learn{
     background-color: #cfbd57d2;
-    padding: 6%;
+    padding: 5%;
 }
 .txt_learn h2{
-    padding-left: 10%;
+    padding-left: 5%;
+    font-size:xx-large;
 }
 .txt_address{
     text-align: right;
@@ -63,46 +72,63 @@ span{
 .txt_first h2{
     font-weight: bold;
     color: #dd5362;
+    font-size: 45px;
+    margin-left: 25px;
 }
 .txt_first h5{
     font-weight: bold;
     color: #707070;
+    font-size: 25px;
+    margin-left: 25px;
 }
-.txt_first p{color: #707070;}
+.txt_first p{color: #707070;
+    margin-left: 25px;
+    font-size: 20px;}
 .company_logo{
-    background-color: #3bbddc;
+    background-color:  #3bbddc;
     padding-top: 20%;
     padding-bottom: 20%;
     color: white;
 }
-.company_logo img{
-    transform: rotate(-30deg);
-}
 .company_logo h4{
     font-weight: bold;
     padding-top: 10%;
+    margin-right: 50px;
     text-align: left;
+    font-size: xx-large;
+
 }
 .company_logo p{
-    font-size: xx-small;
-    margin-top: -5%;
+    font-size: small;
+    margin-top: -6%;
     text-align: left;
 }
 /* our_comapny css */
 .our_comapny{
     background-color: #f8faf9;
     padding: 5%;
+    
 }
 .our_comapny h5{
     color: #dd5362;
     font-weight: bold;
+    margin-left: 25px;
 }
-.our_comapny h3,.our_comapny h6,.our_comapny span,.txt_second h5{
+.our_comapny h3{
     color: #4d4d4d;
-    font-weight: bold;
+    font-weight:bold;
+    margin-left: 25px;
+
+}
+.our_comapny h6{
+   margin-left: 25px; 
 }
 .our_comapny p{
     color: #b6b7b7;
+    margin-left: 25px;
+    text-align: justify;
+    padding-right: 50px;
+    
 }
 .txt_second{
     background-color: white;
@@ -112,22 +138,25 @@ span{
 .txt_second h4{
     color: #4d4d4d;
     font-weight: bold;
-    margin-right: 15%;
+    margin-right: 0%;
 }
 .txt_second img{
     width: 40%;
+    margin-right: -40px;
+
 }
 .txt_second h2{
-    margin-right: 20%;
+    margin-right: 5%;
     font-weight: bold;
     color: #3bbddc;
 }
 .txt_second p{
     color: #b6b7b7;
+    text-align: justify;
+    margin-left: 60px;
 }
 .footer_line{
-    width: 57.5%;
+    width: 66.7%;
     height: 10px;
     background-color: #dd5362;
 }
-.row container upper_section{padding:50px;}
